@@ -177,8 +177,13 @@ main{
     gap: 1em;
 }
 .social-midea a{
+    font-size: 2em;
     color: var(--color-primary);
+    transition: color 0.5s;
     
+}
+.social-midea a:hover{
+    color: var(--color-accent);
 }
 .foto{
     position: relative;
