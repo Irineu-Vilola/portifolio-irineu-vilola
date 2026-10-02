@@ -51,7 +51,7 @@ header{
     align-items: center;
     padding: 15px 0px;
     margin: auto; 
-    width: 90%;   
+    width: 92vw;   
     
 }
 #header-container .logo{
@@ -118,9 +118,10 @@ header{
 }
 
 main{
-    padding: 15px 0px;
+    margin-top: 20px;
+    padding: 0px 10px;
     display: grid;
-    grid-template-columns: auto 90vw auto;
+    grid-template-columns: auto 92vw auto;
 
 }
 #hero{
@@ -206,7 +207,7 @@ main{
     
 
 }
-#sobre h2 span{
+h2 span{
     color: var(--color-primary);
 }
 .sobre-container{
@@ -272,4 +273,49 @@ main{
     border: 2px solid var(--border-color);
     box-shadow: 1px -2px 3px var(--border-color);
     border-radius: 20px;
+}
+
+#competencias{
+    grid-column: 2;
+    margin-top: 20px;
+    
+    
+}
+.competencias-container{
+    margin-top:20px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+      
+}
+.comp-info{
+    background-color: var(--bg-card);
+    display: flex;
+    align-items: center;
+    gap:15px;
+    border-right: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
+    flex-basis: 280px;
+    
+}
+.comp-info img{
+    justify-self: left;
+    width: 60px;
+    background-color:var(--color-primary);
+    border-radius: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.info h3{
+    color:var(--text-secondary);
+    font-size: 0.9em;
+}
+.info p{
+    color:var(--text-secondary);
+    font-size: 0.8em;
 }
